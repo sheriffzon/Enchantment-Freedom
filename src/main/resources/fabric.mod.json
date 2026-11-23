@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "enchantment_freedom",
+  "version": "${version}",
+  "name": "Enchantment Freedom",
+  "description": "Expand enchantment levels, remove anvil restrictions, and enable normally incompatible enchantments.",
+  "authors": [
+    "Sheriffzon"
+  ],
+  "contact": {
+    "sources": "https://github.com/sheriffzon/Enchantment-Freedom"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.sheriffzon.enchantmentfreedom.EnchantmentFreedom"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
