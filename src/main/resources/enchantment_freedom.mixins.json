@@ -2,7 +2,9 @@
   "required": true,
   "package": "com.sheriffzon.enchantmentfreedom.mixin",
   "compatibilityLevel": "JAVA_25",
-  "mixins": [],
+  "mixins": [
+    "EnchantmentMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }
